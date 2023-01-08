@@ -1,0 +1,304 @@
+
+#header
+{
+  top:0;
+    overflow: hidden;  
+  text-align: center;
+  position: sticky;
+  background-color: white;
+}
+
+#header ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 0px;
+  background-color: #00146e;
+  padding: 25px 25px;
+}
+
+#header li
+{
+  display: inline;
+  padding: 20px 20px;
+  font-size: 20px;
+  position: relative;
+  color: rgb(199, 199, 0);
+  
+}
+#header #liRond a
+{
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+#header li a
+{
+  text-decoration: none;
+  color: white;
+}
+
+#header a {
+  display: inline;
+  position: relative;
+  color: #E46161;
+  text-decoration: none;
+}
+
+
+#header .trait-dynamique:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  width: 2%;
+  left: 0px;
+  height: 3px;
+  transition: 0.5s cubic-bezier(0.72,-0.01, 0.19, 0.92);
+  /*background: #dcff40;*/
+    background-color: white;
+}
+
+#header #liRond a
+{
+  transition: 0.5s;
+}
+
+#header #liRond a:hover
+{
+  color: white;
+  background-color: rgb(199, 199, 0);
+}
+
+#header a:hover:after {
+  width: 100%;
+}
+
+#arrow-up
+{
+  padding: 5px 5px;
+  border-radius: 20px;
+  background-color: white;
+  transition: 0.5s;
+}
+
+/*-----------------------------------------------------*/
+#tableau{
+  text-align: center;
+  font-size: 20px;
+  color: #00146e;
+}
+#tableau #expertiseTableau{
+  width: 100%;
+  
+}
+
+.bleu{
+  width: 50%;
+  background-color: #00146e;
+  color: white;
+  border-radius: 30px;
+}
+
+[class*="reveal-"]
+{
+  opacity: 0;
+  transform: translateX(-200px) ;
+  transition: 2s;
+}
+
+.reveal-visible
+{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#tableau #expertiseTableau h2{
+  /*color: rgb(0, 189, 0);*/
+  color: white;
+}
+
+.logo
+{
+  text-align: center;
+  
+}
+
+.logoPnj
+{
+  width: 10%;
+  display: inline;
+}
+
+/*#logoPnj:hover{
+  transition: 0.5s;
+  width: 25% ;
+
+}*/
+/*------------------------------------------------------------*/
+#corps
+{
+  margin-top: 50px;
+  text-align: center;
+  color: #00146e;
+}
+
+#corps h1
+{
+  display: inline;
+  font-size: 45px;
+  padding: 15px 15px;
+  background-color: #aab9fa;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+#corps h1:hover
+{
+  padding: 20px 20px;
+  color: rgb(199, 199, 0);
+  background-color: white;
+}
+
+#image1{
+  width: 100%;
+
+}
+
+#Propose
+{
+  margin-top: 50px;
+  text-align: center;
+  color: #00146e;
+}
+
+#Propose h2
+{
+  display: inline;
+  font-size: 50px;
+  background-color: #aab9fa;
+  padding: 15px 15px;
+  border-radius: 20px;
+}
+
+#Propose ul
+{
+  margin-top: 30px;
+  font-size: 30px;
+  list-style-type:circle;
+}
+
+#Propose li
+{
+  margin-top: 1%;
+}
+
+#photo1
+{
+  width: 60%;
+}
+/*----------------------------------------------------------------*/
+#entrep
+{
+  margin-top: 4%;
+  text-align: center;
+  color: #00146e;
+}
+#entrep table
+{
+  text-align: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+#entrep h2
+{
+  display: inline;
+  font-size: 50px;
+  padding: 15px 15px;
+  background-color: #aab9fa;
+  border-radius: 20px;
+}
+
+#entrep img
+{
+  width: 80%;
+}
+
+.texte-entrep
+{
+  width: 80%;
+  background-color: #00146e;
+  color: white;
+  font-size: 30px;
+  border-spacing: 2px;
+  border-style: solid;
+}
+
+/*---------66666-----------------------------------------*/
+
+.Contacter
+{
+  margin-top: 40px;
+  padding: 200px;
+  text-align: center;
+  color: #00146e;
+  font-size: 20px;
+  background-image: url("images/fond.png");
+  background-size: cover ;
+}
+
+#ContacterTableau
+{
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: #aab9fa;
+
+}
+#ContacterTableau ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#ContacterTableau li
+{
+  display: inline;
+  padding: 20px 20px;
+  font-size: 20px;
+  position: relative;
+}
+
+.reseau
+{
+  transition: 0.5s;
+}
+
+#ContacterTableau .reseau
+{
+  display: inline;
+  width: 9%;
+}
+
+.reseau:hover
+{
+  padding: 15px 15px;
+  border-radius: 20px;
+}
+#ContacterTableau .logo
+{
+  width: 50%;
+}
+
+/*---------------------------------------------------------*/
