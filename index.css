@@ -92,6 +92,7 @@
   text-align: center;
   font-size: 20px;
   color: #00146e;
+  margin-top: 10%;
 }
 #tableau #expertiseTableau{
   width: 100%;
@@ -238,6 +239,36 @@
   font-size: 30px;
   border-spacing: 2px;
   border-style: solid;
+}
+/*-------------------------------------------------------*/
+#tableauPrix
+{
+  width: 100%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+#tableauPrix h1
+{
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+#tableauPrix #titre
+{
+  background-color:#00146e;
+  border-radius: 20px;
+}
+
+#tableauPrix #textePrix
+{
+  font-size: 20px;
+}
+
+#tableauPrix ul
+{
+  list-style-type: none;
 }
 
 /*---------66666-----------------------------------------*/
